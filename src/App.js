@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Folder, Settings, Search, Plus, Hash, Download, Sun, Moon } from 'lucide-react';
-import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
+import { Folder, Settings, Search, Plus, Download, Sun, Moon } from 'lucide-react';
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from "./components/Dialog";
 
 // Settings Component
 const SettingsDialog = ({ open, onOpenChange, settings, onSettingsChange }) => {
